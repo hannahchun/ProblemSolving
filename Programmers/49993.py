@@ -1,6 +1,6 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/49993?language=python3
-# Python
 # Solution 1
+# Python
 
 def solution(skill, skill_trees) :
     answer = 0 # The possible number of answers
