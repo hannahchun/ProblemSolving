@@ -2,7 +2,6 @@
 // Solution 1
 // C++
 
-
 #include <iostream>
 #include <stack>
 
@@ -26,8 +25,8 @@ class Solution {
 
             // push a node into the stack 
             while (node != NULL) {
-                s.push(node->val);
-                node=node->next; // move on to the next node
+                s.push(node->val); 
+                node = node->next; // move on to the next node
             }
 
             // traverse
@@ -39,9 +38,8 @@ class Solution {
                 // compare the popped element with the current node's data
                 if(top != node->val)
                     return false;
-                node = node->next;
+                node = node->next; // move on to the next node
             }
-
             return true;
         }
 };
