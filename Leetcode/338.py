@@ -17,3 +17,4 @@ class Solution(object):
 sol1=Solution()
 print(Solution.countBits(sol1, 2))
 print(Solution.countBits(sol1, 5))
+print(Solution.countBits(sol1, 6))
